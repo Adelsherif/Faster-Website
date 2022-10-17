@@ -8,6 +8,7 @@
 .team .inner .member{
     width: calc(100%/4 - 15px);
     height: calc(100% - 100px) !important;
+    color: black;
     overflow: hidden;
     text-align: center;
     line-height: 0;

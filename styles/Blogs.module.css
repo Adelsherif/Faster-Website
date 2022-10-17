@@ -28,6 +28,7 @@
 }
 .blogs .inner .section .image .date span:last-of-type{color: white;}
 .blogs .inner .section .info{
+    color: black;
     padding: 20px;
     padding-left: 30px;
     line-height: 1;
