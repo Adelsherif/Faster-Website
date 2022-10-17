@@ -1,0 +1,33 @@
+.services{margin-top: 80px;}
+.services .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.services .inner .element{
+    width: 22%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.services .inner .element .address{
+    background-color: var(--main-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services .inner .element .address .icon{
+    font-size: 35px;
+    margin-right: 10px;
+}
+.services .inner .element .address p{
+    font-weight: bold;
+    color: white;
+}
+.services .inner .element > p{color: gray;}
+.services .inner .element a{color: var(--main-color);}
+@media (max-width:992px){.services .inner .element{width: 45%;}}
+@media (max-width:768px){.services .inner .element{width: 90%;}}

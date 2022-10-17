@@ -1,0 +1,22 @@
+.testmonial{margin-top: 60px;}
+.testmonial .inner .content{
+    background-color: var(--second-color);
+    padding: 20px;
+    position: relative;
+}
+.testmonial .inner .content .quote{
+    width: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.testmonial .inner .content .profile{
+    display: flex;
+    align-items: center;
+}
+.testmonial .inner .content .profile .image{
+    width: 15%;
+    margin-right: 20px;
+}
+.testmonial .inner .content .profile .name{line-height: 0;}
+.testmonial .content .profile .image  img{border-radius: 50%;}

@@ -1,0 +1,51 @@
+.face{
+    width: 100%;
+    height: 60vh;
+    background-image: url('../components/face/header.jpg');
+    background-position: top;
+    background-size: cover;
+}
+.face .inner{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.722);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 0;
+}
+.face .inner h3{
+    font-size: 2.5em;
+    color: var(--main-color);
+}
+.face .inner h2{
+    font-size: 4.5em;
+    margin-bottom: 90px;
+}
+.face .inner form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.face .inner form input{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    padding: 22px 20px;
+}
+.face .inner form input[type="text"]{
+    background-color: white;
+    width: 30%;
+}
+.face .inner form input[type="submit"]{
+    background-color: var(--main-color);
+    color: white;
+}
+@media (max-width:768px){
+.face .inner form input[type="text"]{width: 60%;}
+.face .inner h3{font-size: 1.5em;}
+.face .inner h2{font-size: 2em;}
+}

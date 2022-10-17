@@ -1,0 +1,59 @@
+.team{margin-top: 80px;}
+.team .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.team .inner .member{
+    width: calc(100%/4 - 15px);
+    height: calc(100% - 100px) !important;
+    overflow: hidden;
+    text-align: center;
+    line-height: 0;
+    margin-bottom: 50px;
+}
+.team .inner .member .image{width: 100% !important;}
+.team .inner .member .image img{
+    z-index: 5;
+    width: 100% !important;
+}
+.team .inner .member .text{
+    height: 105px;
+    line-height: 0;
+}
+.team .inner .member .text .address{
+    height: calc(100% - 5px);
+    background-color: var(--second-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.team .inner .member .text .links{
+    height: 110px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team .inner .member .text ul{
+    display: flex;
+    justify-content: center;
+}
+.team .inner .member .text ul li{
+    font-size: 16px;
+    padding: 10px;
+}
+.team .inner .member .text ul li:hover{color: white;}
+.team .inner .member:hover .text{
+    transform: translateY(-100%);
+    transition: 1s;
+}
+@media (max-width:992px){
+    .team .inner .member{width: calc(100%/2 - 15px);}
+    .team .inner .member .image img{
+        z-index: 5;
+        width: 100% !important;
+    }
+}
+@media (max-width:768px){.team .inner .member{width: 100%;}}

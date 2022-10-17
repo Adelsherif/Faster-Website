@@ -1,0 +1,75 @@
+.quote{
+    width: 100%;
+    background-color: var(--second-color);
+}
+.quote .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.quote .inner .text{
+    width: 55%;
+    line-height: 1;
+}
+.quote .inner .text h5{color: var(--main-color);}
+.quote .inner .text h2{font-size: 2.5em;}
+.quote .inner .text p{color: rgb(151, 147, 147);}
+.quote .inner .elements{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 0;
+}
+.quote .elements .element h3{
+    color: var(--main-color);
+    font-size: 30px;
+}
+.quote .inner .form{
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    background-color: var(--main-color);
+}
+.quote .inner .form form{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.quote .inner .form form input{
+    width: 100%;
+    font-size: 14px;
+    padding: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+}
+.quote .inner .form form select{
+    width: 100%;
+    font-size: 14px;
+    padding: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+}
+.quote .inner .form form input[type="submit"]{
+    background-color: black;
+    color: white;
+}
+@media(max-width:992px){
+    .quote .inner{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .quote .inner .text{
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .quote .inner .form{
+        width: 90%;
+        margin: auto;
+    }
+}

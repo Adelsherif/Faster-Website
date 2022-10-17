@@ -1,0 +1,58 @@
+.footer{
+    background-color: #1F1F2E;
+    color: white;
+    margin-top: 60px;
+}
+.footer .first,.second{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer .first h3{
+    font-size: 25px;
+    color: var(--main-color);
+}
+.footer .first ul{line-height: 2;}
+.footer .first .address,.links{width: 30%;}
+.footer .first ul li span{margin-right: 5px;}
+.footer .first .address .social{
+    display: flex;
+    font-size: 18px;
+}
+.footer .first .address .social li{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+.footer .first .newsletter{width: 40%;}
+.footer .first .newsletter form{width: 100%;}
+.footer .first .newsletter form input{
+    font-size: 14px;
+    border: none;
+    outline: none;
+    padding:22px 20px;
+}
+.footer .first .newsletter form input[type="email"]{width: 75%;}
+.footer .first .newsletter form input[type="submit"]{
+    background-color: var(--main-color);
+    color: white;
+}
+.footer .second{padding: 0;}
+.footer .second p span{color: var(--main-color);}
+.footer .second ul{display: flex;}
+.footer .second ul li{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (max-width:992px){.footer .first .address,.links,.newsletter{width: 50% !important;}}
+@media (max-width:768px){
+    .footer .first .address,.links,.newsletter{width: 100% !important;}
+    .footer .second {justify-content: center;}
+}

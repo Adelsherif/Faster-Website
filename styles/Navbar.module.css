@@ -1,0 +1,39 @@
+.navbar{
+    width: 100%;
+    padding: 0;
+    background-color: #1F1F2E;
+    color: white;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 1;
+}
+.navbar .inner,.contactInfo,.element{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar .inner .contactInfo .element,.icon{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.navbar .inner .contactInfo .icon{font-size: 14px;}
+.navbar .inner .contactInfo .element:first-of-type p{
+    border-right: 2px solid white;
+    padding-right: 10px;
+}
+.navbar .inner ul{
+    display: flex;
+    align-items: center;
+}
+.navbar .inner ul li{
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+@media (max-width:768px){
+    .navbar .inner{
+        justify-content: center;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,57 @@
+.blogs{margin-top: 60px;}
+.blogs .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.blogs .inner .section{
+    width: 48%;
+    background-color: var(--second-color);
+    margin-bottom: 30px;
+}
+.blogs .inner .section .image{position: relative;}
+.blogs .inner .section .image img{width: 100%;}
+.blogs .inner .section .image .date{
+    width: 60px;
+    height: 60px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50%;
+    position: absolute;
+    right: 25px;
+    bottom: -25px;
+    background-color: var(--main-color);
+}
+.blogs .inner .section .image .date span:last-of-type{color: white;}
+.blogs .inner .section .info{
+    padding: 20px;
+    padding-left: 30px;
+    line-height: 1;
+}
+.blogs .inner .section .info .person{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blogs .inner .section .info .person .user{width: 50px;}
+.blogs .section .info .person .user img{border-radius: 50%;}
+.blogs .inner .section .info .person div {color: gray;}
+.blogs .inner .section .info .person div span{
+    color: var(--main-color);
+    margin-right: 5px;
+}
+.blogs .inner .section .info .text p{
+    color: gray;
+    line-height: 1.5;
+}
+.blogs .inner .section .info .text a{
+    color: var(--main-color);
+    text-decoration: underline;
+}
+@media (max-width:992px){.blogs .inner .section{width: 100%;}}
+@media (max-width:768px){.blogs .inner .section .info .person{width: 80%;}}

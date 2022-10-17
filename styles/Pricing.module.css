@@ -1,0 +1,58 @@
+.pricing{margin-top: 80px;}
+.pricing .inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pricing .inner .parent{
+    width: calc(100%/3 - 20px);
+    text-align: center;
+    background-color: var(--second-color);
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.pricing .inner .parent .child {width: 100%;}
+.pricing .inner .parent .child h1{
+    width: fit-content;
+    margin: auto;
+    position: relative;
+    font-size: 40px;
+}
+.pricing .inner .parent .child h1::before{
+    content: "$";
+    font-size: 18px;
+    color: gray;
+    position: absolute;
+    left: -10px;
+    top: -5px;
+}
+.pricing .inner .parent .child h1::after{
+    content: "/Mo";
+    font-size: 18px;
+    color: gray;
+    position: absolute;
+    right: -40px;
+    bottom: 10px;
+}
+.pricing .inner .parent .child h3{
+    font-size: 22px;
+    background-color: var(--main-color);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.pricing .inner .parent .child ul{
+    line-height: 2.5;
+    color: gray;
+    margin-bottom: 20px;
+}
+.pricing .inner .parent .child a{
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px;
+}
+@media (max-width:992px){.pricing .inner .parent{width: calc(100%/2 - 20px);}}
+@media (max-width:768px){.pricing .inner .parent{width: 100%;}}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+  --main-color:#FF4800;
+  --second-color:#F2F2F4;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+* {box-sizing: border-box;}
+.container-fulid{
+  width: 95%;
+  margin: auto;
+}
+.container{
+  width: 72%;
+  margin: auto;
+}
+.head{
+  text-align: center;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+.head h5{color: var(--main-color);}
+.head h2{font-size: 35px;}
+@media(max-width:1200px){.container{width: 90%;}}
+ul{
+  list-style: none;
+  padding: 0 !important;
+}
+@media (prefers-color-scheme: dark) {
+  html {color-scheme: dark;}
+  body {
+    color: white;
+    background: black;
+  }
+}
+.swiper-slide{transform: none !important;}
+.swiper-slide:not(.swiper-slide-active){
+    opacity: .4;
+    background-image: none;
+    margin-bottom: 50px;
+}
+.swiper-pagination-bullet-active{background-color: var(--main-color) !important;}
+.swiper-slide-shadow-left,.swiper-slide-shadow-right{background-image: none !important;}
+.swiper-pagination span{
+  width: 12px !important;
+  height: 12px !important;
+}
