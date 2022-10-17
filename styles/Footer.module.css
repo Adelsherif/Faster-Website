@@ -41,6 +41,7 @@
 }
 .footer .first .newsletter form input[type="email"]{width: 75%;}
 .footer .first .newsletter form input[type="submit"]{
+    max-width: 25%;
     background-color: var(--main-color);
     color: white;
 }

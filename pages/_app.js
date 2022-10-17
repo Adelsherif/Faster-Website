@@ -8,9 +8,9 @@ function MyApp({ Component, pageProps }) {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel='icon' href='https://raw.githubusercontent.com/Adelsherif/Faster-Website/master/pages/quote.png' />
           <title>Faster</title>
-    </Head>
-      <Component {...pageProps} />
+        </Head>
+        <Component {...pageProps} />
       </>
   )}
 
-export default MyApp
+export default MyApp;
