@@ -18,7 +18,6 @@ a {
   text-decoration: none;
 }
 * {box-sizing: border-box;}
-input{background-color: white !important;}
 .container-fulid{
   width: 95%;
   margin: auto;

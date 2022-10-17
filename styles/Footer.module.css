@@ -39,7 +39,10 @@
     outline: none;
     padding:22px 20px;
 }
-.footer .first .newsletter form input[type="email"]{width: 75%;}
+.footer .first .newsletter form input[type="email"]{
+    width: 75%;
+    background-color: white;
+}
 .footer .first .newsletter form input[type="submit"]{
     max-width: 25%;
     background-color: var(--main-color);
