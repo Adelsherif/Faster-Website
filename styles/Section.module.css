@@ -1,5 +1,5 @@
 .section{
-    height: fit-content;
+    min-height: fit-content;
     margin-top: 80px;
     background-color: var(--second-color);
 }
