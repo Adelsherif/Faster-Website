@@ -13,7 +13,10 @@
     line-height: 1;
 }
 .quote .inner .text h5{color: var(--main-color);}
-.quote .inner .text h2{font-size: 2.5em;}
+.quote .inner .text h2{
+    font-size: 2.5em;
+    color: black;
+}
 .quote .inner .text p{color: rgb(151, 147, 147);}
 .quote .inner .elements{
     display: flex;

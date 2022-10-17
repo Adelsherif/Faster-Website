@@ -32,7 +32,10 @@ a {
   margin-bottom: 50px;
 }
 .head h5{color: var(--main-color);}
-.head h2{font-size: 35px;}
+.head h2{
+  font-size: 35px;
+  color: black;
+}
 @media(max-width:1200px){.container{width: 90%;}}
 ul{
   list-style: none;
