@@ -55,4 +55,7 @@
     text-decoration: underline;
 }
 @media (max-width:992px){.blogs .inner .section{width: 100%;}}
-@media (max-width:768px){.blogs .inner .section .info .person{width: 80%;}}
+@media (max-width:768px){
+    .blogs .inner .section .info .person{width: 80%;}
+    .blogs .inner .section .info .person{max-width: 100%;}
+}
